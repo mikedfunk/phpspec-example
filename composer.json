@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "MikeFunk\\": "src/MikeFunk/"
+      }
+    }
+}
