@@ -27,8 +27,12 @@
 * now `composer dump autoload` to have composer recognize that new autoloader
   part
 * `vendor/bin/phpspec run` will ask if you want phpspec to generate the class
-  for you. Hit Y to do that.
-* now write a test for a class method. Examples are in this repository.
+  for you. Hit <kbd>Y</kbd> to do that.
+* now write a test for a class method. [Simple
+  example](https://github.com/mikedfunk/phpspec-example/blob/master/spec/MikeFunk/PhpSpec/MathSpec.php)
+  is in this repository. See the [phpspec
+  docs](http://www.phpspec.net/docs/introduction.html) for examples with
+  dependency injection, other expectations, etc.
 * `vendor/bin/phpspec run` will now ask if you want phpspec to add that
   function. _Even though this is an easy thing to do yourself, this is good
   practice because it promotes test-driven development._ It should now show one
