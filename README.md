@@ -40,3 +40,8 @@
 * write just enough code in that method to make your test pass
 * `vendor/bin/phpspec run` should now pass! Time to refactor. (red -> green ->
   refactor)
+* If you want you can also use some better code generation templates. Just put
+  the templates for class, method, and specification in your `~/.phpspec`
+  folder. [Here are
+  mine](https://github.com/mikedfunk/dotfiles/tree/master/to_link/.phpspec) as
+  an example.
