@@ -5,7 +5,7 @@
 
 ## Using phpspec in another project
 * `composer require --dev phpspec/phpspec`
-* `vendor/bin/phpspec MyNamespace\\To\\MyClass` will create a spec for that
+* `vendor/bin/phpspec describe MyNamespace\\To\\MyClass` will create a spec for that
   class in `spec/MyNamespace/To/MyClassSpec`. It will have a default
   `it_is_initializable` test in it.
 * now set up the composer autoloader so phpspec can find your classes to test.
