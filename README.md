@@ -31,7 +31,7 @@
 * now write a test for a class method. [Simple
   example](https://github.com/mikedfunk/phpspec-example/blob/master/spec/MikeFunk/PhpSpec/MathSpec.php)
   is in this repository. See the [phpspec
-  docs](http://www.phpspec.net/docs/introduction.html) for examples with
+  docs](http://www.phpspec.net/en/latest/manual/introduction.html) for examples with
   dependency injection, other expectations, etc.
 * `vendor/bin/phpspec run` will now ask if you want phpspec to add that
   function. _Even though this is an easy thing to do yourself, this is good
