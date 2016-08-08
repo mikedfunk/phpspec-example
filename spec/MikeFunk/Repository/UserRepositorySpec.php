@@ -18,31 +18,16 @@ use MikeFunk\StorageInterface;
 class UserRepositorySpec extends ObjectBehavior
 {
 
-    /**
-     * setUp
-     *
-     * @param MikeFunk\StorageInterface $storage
-     */
     public function let(StorageInterface $storage)
     {
         $this->beConstructedWith($storage);
     }
 
-    /**
-     * it_is_initializable
-     *
-     * @param MikeFunk\StorageInterface $storage
-     */
     public function it_is_initializable(StorageInterface $storage)
     {
         $this->shouldHaveType('MikeFunk\Repository\UserRepository');
     }
 
-    /**
-     * @test
-     *
-     * @param MikeFunk\StorageInterface $storage data manager instance
-     */
     public function it_should_save(StorageInterface $storage)
     {
         // dummy data

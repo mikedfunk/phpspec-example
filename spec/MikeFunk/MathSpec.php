@@ -1,11 +1,10 @@
 <?php
 /**
- * Specification unit test for MikeFunk\PhpSpec\Math
+ * Specification unit test for MikeFunk\Math
  *
- * @package spec\MikeFunk\PhpSpec
  * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
-namespace spec\MikeFunk\PhpSpec;
+namespace spec\MikeFunk;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -25,7 +24,7 @@ class MathSpec extends ObjectBehavior
      */
     public function it_is_initializable()
     {
-        $this->shouldHaveType('MikeFunk\PhpSpec\Math');
+        $this->shouldHaveType('MikeFunk\Math');
     }
 
     /**
