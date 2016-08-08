@@ -1,5 +1,6 @@
 {
     "require-dev": {
+        "phpunit/phpunit": "@stable",
         "phpspec/phpspec": "~2.1"
     },
     "autoload": {
