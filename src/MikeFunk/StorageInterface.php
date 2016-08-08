@@ -2,14 +2,14 @@
 /**
  * StorageInterface
  *
- * @copyright 2016 Demand Media, Inc. All Rights Reserved.
+ * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
 namespace MikeFunk;
 
 /**
  * Store data.
  *
- * @author Michael Funk <mike.funk@demandmedia.com>
+ * @author Michael Funk <mike@mikefunk.com>
  */
 interface StorageInterface
 {

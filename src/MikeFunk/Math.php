@@ -1,17 +1,17 @@
 <?php
 /**
- * Defines MikeFunk\Math
+ * Math
  *
  * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
 namespace MikeFunk;
 
 /**
- * Math
- *
- * @author Michael Funk <mike@mikefunk.com>
+ * Do math.
  *
  * @see spec\Mikefunk\MathSpec
+ *
+ * @author Michael Funk <mike@mikefunk.com>
  */
 class Math
 {

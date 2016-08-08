@@ -1,6 +1,6 @@
 <?php
 /**
- * Defines MikeFunk\Repository\UserRepository
+ * UserRepository
  *
  * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
@@ -9,10 +9,11 @@ namespace MikeFunk\Repository;
 use MikeFunk\StorageInterface;
 
 /**
- * UserRepository
+ * Manage user data.
+ *
+ * @see spec\MikeFunk\Repository\UserRepositorySpec
  *
  * @author Michael Funk <mike@mikefunk.com>
- * @see spec\MikeFunk\Repository\UserRepositorySpec
  */
 class UserRepository
 {
@@ -35,6 +36,8 @@ class UserRepository
      * Save data.
      *
      * @param array $data the data to save
+     *
+     * @return bool
      */
     public function save(array $data)
     {

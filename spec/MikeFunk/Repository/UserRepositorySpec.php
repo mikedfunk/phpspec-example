@@ -1,6 +1,6 @@
 <?php
 /**
- * Specification unit test for MikeFunk\Repository\UserRepository
+ * UserRepositorySpec
  *
  * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
@@ -11,7 +11,7 @@ use Prophecy\Argument;
 use MikeFunk\StorageInterface;
 
 /**
- * UserRepositorySpec
+ * Specification unit test for MikeFunk\Repository\UserRepository
  *
  * @author Michael Funk <mike@mikefunk.com>
  */
@@ -28,7 +28,7 @@ class UserRepositorySpec extends ObjectBehavior
         $this->shouldHaveType('MikeFunk\Repository\UserRepository');
     }
 
-    public function it_should_save(StorageInterface $storage)
+    public function it_saves_data(StorageInterface $storage)
     {
         // dummy data
         $data = ['id' => 1, 'name' => 'Joe'];

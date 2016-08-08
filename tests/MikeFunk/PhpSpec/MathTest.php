@@ -2,26 +2,23 @@
 /**
  * MathTest
  *
- * @copyright 2016 Demand Media, Inc. All Rights Reserved.
+ * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
 namespace MikeFunk;
 
 /**
  * Unit Tests.
  *
- * @author Michael Funk <mike.funk@demandmedia.com>
+ * @author Michael Funk <mike@mikefunk.com>
  */
 class MathTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var Math class under test
+     * @var MikeFunk\Math class under test
      */
     protected $math;
 
-    /**
-     * Phpunit setup.
-     */
     public function setUp()
     {
         // instantiate class under test

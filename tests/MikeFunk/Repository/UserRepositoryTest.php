@@ -2,7 +2,7 @@
 /**
  * UserRepositoryTest
  *
- * @copyright 2016 Demand Media, Inc. All Rights Reserved.
+ * @license MIT License <http://opensource.org/licenses/mit-license.html>
  */
 namespace MikeFunk\Repository;
 
@@ -12,11 +12,10 @@ use MikeFunk\Repository\UserRepositoryTest;
 /**
  * Unit Tests.
  *
- * @author Michael Funk <mike.funk@demandmedia.com>
+ * @author Michael Funk <mike@mikefunk.com>
  */
 class UserRepositoryTest extends \PHPUnit_Framework_TestCase
 {
-
 
     /**
      * @var MikeFunk\StorageInterface Storage instance
@@ -28,9 +27,6 @@ class UserRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     protected $userRepository;
 
-    /**
-     * Phpunit setup.
-     */
     public function setUp()
     {
         // mock dependencies
